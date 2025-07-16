@@ -27,3 +27,5 @@ features:
   - title: 更新速度测试
     details: 当你看到这个代表更新了
 ---
+
+<div id="last-push-time"></div>
