@@ -65,13 +65,13 @@ export default defineConfig({
     //   { icon: "github", link: "https://github.com/vuejs/vitepress" },
     // ],
 
-    // lastUpdated: {
-    //   text: "更新时间",
-    //   formatOptions: {
-    //     dateStyle: "full",
-    //     // timeStyle: 'medium'
-    //   },
-    // },
+    lastUpdated: {
+      text: "更新时间",
+      formatOptions: {
+        dateStyle: "full",
+        timeStyle: "short", // 时间显示 medium 有秒 short 没秒
+      },
+    },
   },
   srcDir: "docs",
   // lastUpdated: true,
