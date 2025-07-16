@@ -19,7 +19,7 @@ hero:
 
 features:
   - title: 说明文档更新
-    details: 当前版本 v 1.0.0
+    details: 当前版本 v 20250716
   - title: xx版本更新
     details: 当前版本 v 20250402A
   - title: 脚本更新
