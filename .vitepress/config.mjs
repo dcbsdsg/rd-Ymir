@@ -4,8 +4,9 @@ import sidebar from "./sidebar.mjs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/rd-Ymir/",
   title: "Ymir Script description",
-  head: [["link", { rel: "icon", href: "/game-icon.ico" }]],
+  head: [["link", { rel: "icon", href: "/rd-Ymir/game-icon.ico" }]],
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
