@@ -48,7 +48,7 @@ jobs:
         # 新增的步骤
       - name: Inject Push Time
         run: |
-          PUSH_TIME=$(date -d "@$(git log -1 --format=%at)" +'%Y-%m-%d %H:%M:%S')
+          PUSH_TIME=$(date -d "@$(git log -1 --format=%at)" +'%Y-%m-%d %H:%M')
           sed -i "s|<div id=\"last-push-time\"></div>|<div id=\"last-push-time\">最后更新时间：$PUSH_TIME</div>|g" docs/index.md
       - name: Build with VitePress
         run: npm run build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
